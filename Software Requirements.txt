@@ -1,0 +1,35 @@
+Scheduling App : ScheduleMe
+
+ScheduleMe will faciliate ease of time and schedule organization for groups/teams. The system will provide a service as follows.
+A user will start a new schedule. The user will specify how many users will be in the schedule, how long to keep the schedule alive for (1 day up to 3 days), and 
+after a temporary link will be created that leads to that schedule.
+In the schedule page, each user will be able to add their name, email, phone number and the times they are available.
+Upon the expiration of the link (schedule) or when all team members are signed up, the system will select the most optimal time.
+
+Optimal time:
+    1) if all team members can only meet at a single specific time then pick that time slot and notify the original creator.
+    2) if no team members can meet at the same time, email the original creator of the situation
+    3) If at least # of members can meet, pick that time slot and notify original creator of the situation
+
+
+Main Page:
+    The system will allow a user to indicate the number of members expected on schedule
+    The system will allow a user to fill in their Name, email, and phone number
+    The system will allow a user to indicate the expiration time of the schedule
+    The system will verify that a user is not a robot
+    The system will allow a user to create a schedule room.
+
+Schedule Room Page 
+    Upon creation the system will email the schedule room page to the original creator.
+    THe system will display in a textbox the url of the room.
+    The system will allow other users to enter their email, name, and phone number
+    The system will allow other users to indicate the time they are available by creating time blocks.
+
+Create Time Block Page/Window
+    Users can select what day to create a time block in
+    Users can indicate what time the block starts
+    Users can indicate what time the block ends
+    Users can save the time block information
+    Users can reset the time block information
+    Users can close the Create Time Block Page
+    
